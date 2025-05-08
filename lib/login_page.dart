@@ -26,20 +26,20 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFFBA55D3),
+      backgroundColor: Color(0xFFD891EF),
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(25.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Icon(Icons.lock_outline, size: 100, color:Color(0xFFCEB4DB)),
+              const Icon(Icons.lock_outline, size: 100, color:Color(0xFFDA70D6)),
               const SizedBox(height: 20),
               const Text('Connexion',
                   style: TextStyle(
                       fontSize: 28,
                       fontWeight: FontWeight.bold,
-                      color: Color(0xFFCEB4DB))),
+                      color: Color(0xFFE6E6FA))),
               const SizedBox(height: 30),
               TextField(
                 controller: _loginController,
